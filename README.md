@@ -21,12 +21,12 @@ description: Loads in the OD matrix from an excel file, maps all the stations
 to their respective municipalities and aggregates the data by municipality.
 Connections to Germany and Sweden are removed from the data.
 
-2. Scraping Inter-Municipal Distances Online
-notebook: Scraper.ipynb
-description: The web scraper used to get all the inter-municipal distances
-from https://www.afstande.com/. Outputs a file containing per per row a
-string with the travel time in minutes and kilometers. The file contains one
-line per existing edge in the network plus one for each possible combination
+2. **Scraping Inter-Municipal Distances Online** 
+notebook: Scraper.ipynb  
+description: The web scraper used to get all the inter-municipal distances  
+from https://www.afstande.com/. Outputs a file containing per per row a  
+string with the travel time in minutes and kilometers. The file contains one  
+line per existing edge in the network plus one for each possible combination  
 of the isolated nodes with the already connected nodes.
 
 3. Estimating Edge Weights
